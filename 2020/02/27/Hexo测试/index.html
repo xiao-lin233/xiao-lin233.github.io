@@ -7,15 +7,15 @@
   
   <title>Hexo测试 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="粗体测试 斜体测试 删除线测试 标题测试 无序列表测试 无序列表测试  无序列表测试 无序列表测试  无序列表测试 无序列表测试       有序列表测试 有序列表测试   引用测试  引用测试  引用测试  $\LaTeX$测试 $1+1&#x3D;2$ $a^2+b^2&#x3D;c^2$ $$a&#x3D;\sum\limits_{i&#x3D;1}^n b_i$$">
+  <meta name="description" content="粗体测试 _斜体测试_ 删除线测试 标题测试 无序列表测试 无序列表测试  无序列表测试 无序列表测试  无序列表测试 无序列表测试       有序列表测试 有序列表测试   引用测试  引用测试  引用测试  $\LaTeX$测试 $1+1&#x3D;2$ $a^2+b^2&#x3D;c^2$ a&#x3D;\sum\limits_{i&#x3D;1}^n b_i">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo测试">
 <meta property="og:url" content="http://yoursite.com/2020/02/27/Hexo%E6%B5%8B%E8%AF%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="粗体测试 斜体测试 删除线测试 标题测试 无序列表测试 无序列表测试  无序列表测试 无序列表测试  无序列表测试 无序列表测试       有序列表测试 有序列表测试   引用测试  引用测试  引用测试  $\LaTeX$测试 $1+1&#x3D;2$ $a^2+b^2&#x3D;c^2$ $$a&#x3D;\sum\limits_{i&#x3D;1}^n b_i$$">
+<meta property="og:description" content="粗体测试 _斜体测试_ 删除线测试 标题测试 无序列表测试 无序列表测试  无序列表测试 无序列表测试  无序列表测试 无序列表测试       有序列表测试 有序列表测试   引用测试  引用测试  引用测试  $\LaTeX$测试 $1+1&#x3D;2$ $a^2+b^2&#x3D;c^2$ a&#x3D;\sum\limits_{i&#x3D;1}^n b_i">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-02-26T22:50:38.000Z">
-<meta property="article:modified_time" content="2020-02-26T23:17:24.933Z">
+<meta property="article:modified_time" content="2020-02-27T05:27:22.707Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -89,7 +89,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><strong>粗体测试</strong></p>
-<p><em>斜体测试</em></p>
+<p>_斜体测试_</p>
 <p><del>删除线测试</del></p>
 <h1 id="标题测试"><a href="#标题测试" class="headerlink" title="标题测试"></a>标题测试</h1><ul>
 <li>无序列表测试</li>
@@ -119,12 +119,11 @@
 <p>$\LaTeX$测试</p>
 <p>$1+1=2$</p>
 <p>$a^2+b^2=c^2$</p>
-<p>$$a=\sum\limits_{i=1}^n b_i$$</p>
-
+<script type="math/tex; mode=display">a=\sum\limits_{i=1}^n b_i</script>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/27/Hexo%E6%B5%8B%E8%AF%95/" data-id="ck73xvn1o0000ecta2txletya" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/02/27/Hexo%E6%B5%8B%E8%AF%95/" data-id="ck74bqxpo0000eotafsc7crzp" class="article-share-link">Share</a>
       
       
     </footer>
@@ -225,5 +224,20 @@
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
